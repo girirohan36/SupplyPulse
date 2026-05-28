@@ -12,9 +12,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
-[**Demo**](#-demo) • [**Architecture**](#%EF%B8%8F-architecture) • [**Quickstart**](#-quickstart) • [**Learning Path**](LEARNING_PATH.md) • [**Roadmap**](#%EF%B8%8F-roadmap)
-
-</div>
 
 ---
 
@@ -235,52 +232,16 @@ This project doubles as a **structured curriculum for LangChain + LangGraph**, o
 - **Cost/latency tradeoffs** — parallelism, model selection, caching
 - **Observability is non-negotiable** — LangSmith caught 3 bugs I'd never have seen
 
-## 🤝 Contributing
-
-Contributions welcome! See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines.
-
-Good first issues:
-- Add new live data sources (e.g., port congestion APIs)
-- Improve prompts for better tool-call accuracy
-- Add evaluators for new risk categories
-- Translate UI to other languages
-
 ## ❓ FAQ
 
 **Q: Is the supplier data real?**
 A: No — 100% synthetic, generated with Faker. No real companies referenced.
 
-**Q: What does it cost to run?**
-A: < $5 in API costs to build the whole project. GPT-4o-mini is ~$0.0001 per agent call.
-
-**Q: Can I use Claude / Llama / on-device models?**
-A: Yes — swap `ChatOpenAI` for `ChatAnthropic` or `ChatOllama`. LangChain abstracts the LLM.
-
-**Q: Does this require any paid services?**
-A: Optional NewsAPI free tier (100 requests/day). Everything else (GDELT, USGS, Open-Meteo, yfinance) is fully free.
-
-**Q: Can I use this in production?**
-A: This is a learning project. For production, harden the prompts, add retries, real auth, and proper data integrations.
-
-## 📜 License
-
-MIT License — see [`LICENSE`](LICENSE) for details.
-
-Use it, fork it, learn from it, build on it.
-
-## 🙏 Acknowledgments
-
-Built with:
-- [LangChain](https://python.langchain.com/) & [LangGraph](https://langchain-ai.github.io/langgraph/)
-- [OpenAI](https://openai.com/) GPT-4o-mini
-- Free public APIs: [NewsAPI](https://newsapi.org/), [GDELT](https://www.gdeltproject.org/), [Open-Meteo](https://open-meteo.com/), [USGS](https://earthquake.usgs.gov/), [yfinance](https://github.com/ranaroussi/yfinance)
-
----
 
 <div align="center">
 
 **⭐ Star this repo if you found it useful!**
 
-Built by [Your Name](https://github.com/YOUR_USERNAME) • [LinkedIn](https://linkedin.com/in/YOU) • [Blog](https://your-blog.com)
+Built by [Your Name](https://github.com/girirohan36) • [LinkedIn](https://linkedin.com/in/girirohan36) 
 
 </div>
