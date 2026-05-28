@@ -210,20 +210,6 @@ Each day's work maps to specific concepts:
 | Synthetic dataset generation | <2s |
 | Concurrent agent invocations | 50 |
 
-## 🛣️ Roadmap
-
-- [x] Multi-agent LangGraph orchestrator
-- [x] 5 live data integrations (NewsAPI, GDELT, Open-Meteo, USGS, yfinance)
-- [x] Synthetic supplier dataset generator
-- [x] News Scanner Agent
-- [ ] Geo Risk + Financial Health agents (Day 3)
-- [ ] Impact Analyzer + Mitigation agents (Day 3-4)
-- [ ] ChromaDB RAG layer over historical events (Day 4)
-- [ ] Streamlit dashboard with interactive world map (Day 5)
-- [ ] Docker + cloud deployment guide (Day 6)
-- [ ] Evaluation harness with golden test cases (Day 7)
-- [ ] Demo video + blog post (Day 7)
-
 ## 🧠 What I Learned Building This
 
 > *(Replace this section with your own reflections — recruiters love it!)*
@@ -235,15 +221,6 @@ Each day's work maps to specific concepts:
 - **Cost/latency tradeoffs** — parallelism, model selection, caching
 - **Observability is non-negotiable** — LangSmith caught 3 bugs I'd never have seen
 
-## 🤝 Contributing
-
-Contributions welcome! See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines.
-
-Good first issues:
-- Add new live data sources (e.g., port congestion APIs)
-- Improve prompts for better tool-call accuracy
-- Add evaluators for new risk categories
-- Translate UI to other languages
 
 ## ❓ FAQ
 
@@ -262,25 +239,10 @@ A: Optional NewsAPI free tier (100 requests/day). Everything else (GDELT, USGS, 
 **Q: Can I use this in production?**
 A: This is a learning project. For production, harden the prompts, add retries, real auth, and proper data integrations.
 
-## 📜 License
-
-MIT License — see [`LICENSE`](LICENSE) for details.
-
-Use it, fork it, learn from it, build on it.
-
-## 🙏 Acknowledgments
-
-Built with:
-- [LangChain](https://python.langchain.com/) & [LangGraph](https://langchain-ai.github.io/langgraph/)
-- [OpenAI](https://openai.com/) GPT-4o-mini
-- Free public APIs: [NewsAPI](https://newsapi.org/), [GDELT](https://www.gdeltproject.org/), [Open-Meteo](https://open-meteo.com/), [USGS](https://earthquake.usgs.gov/), [yfinance](https://github.com/ranaroussi/yfinance)
-
----
-
 <div align="center">
 
 **⭐ Star this repo if you found it useful!**
 
-Built by [Your Name](https://github.com/YOUR_USERNAME) • [LinkedIn](https://linkedin.com/in/YOU) • [Blog](https://your-blog.com)
+Built by [Rohan Giri](https://github.com/girirohan36) • [LinkedIn](https://linkedin.com/in/girirohan36) • [Blog](https://rohangiri.mystrikingly.com/)
 
 </div>
